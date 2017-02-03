@@ -1,0 +1,14 @@
+//Variables
+
+//Columnas
+
+@for $i from 1 through 12 {
+  .col.s#{$i} {
+    width: 100% / 12 * $i;
+    border: 1px solid black;
+  }
+}
+
+.row{
+  display: flex;
+}
